@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #80B918;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 1.3rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+}
+
+.col-1{
+    width: 100%;
+}
+
+hr{
+    background-color: transparent !important;
+    border: none;
+    height: 0;
+}
